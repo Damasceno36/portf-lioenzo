@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enzo Damasceno | IT Analyst & Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="https://i.ibb.co/TxYLrLBx/android-chrome-192x192.png">
+</head>
+<body>
+
+    <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+
+    <header>
+        <div class="container">
+            <h1 class="logo">E<span>D</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#experiencia">Experiência</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <canvas id="matrix-canvas"></canvas>
+        <div class="container hero-content">
+            <div class="profile-wrapper">
+                <img src="https://i.ibb.co/0pbTY8DX/perfil-jpg.jpg" alt="Enzo Damasceno" class="profile-pic">
+            </div>
+            
+            <div class="hero-text">
+                <h1>Enzo Damasceno</h1>
+                <h2 class="typewriter-container">
+                    <span id="typewriter"></span><span class="cursor">|</span>
+                </h2>
+                <p><i class="fas fa-map-marker-alt"></i> Duque de Caxias - RJ</p>
+                <div class="hero-btns">
+                    <a href="https://wa.me/5521992308961?text=Olá%20Enzo..." target="_blank" class="btn-primary">
+                        <i class="fab fa-whatsapp"></i> Contato
+                    </a>
+                    <a href="https://i.ibb.co/WW85Zjyt/curriculo-enzo-damasceno.png" target="_blank" class="btn-secondary">
+                        <i class="fas fa-file-download"></i> <strong>CV</strong>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="bg-alt reveal">
+        <div class="container">
+            <h2 class="section-title">Resumo Profissional</h2>
+            <div class="about-cards">
+                <div class="card">
+                    <i class="fas fa-briefcase icon-big"></i>
+                    <p>Analista de Suporte com 2 anos de experiência em Service Desk N1/N2 e manutenção de hardware corporativo.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-network-wired icon-big"></i>
+                    <p>Especialista em Windows, redes TCP/IP, Active Directory e ecossistema Office 365.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-code icon-big"></i>
+                    <p>Vivência em automação com Python/JS e suporte via ferramentas ITSM como Jira e GLPI.</p>
+                </div>
+            </div>
+
+            <div class="certifications-section">
+                <h3>Certificações em andamento</h3>
+                <div class="cert-badges">
+                    <span class="badge">Engenharia de Machine Learning</span>
+                    <span class="badge">Especialista em IA</span>
+                    <span class="badge">Engenharia de IA</span>
+                </div>
+            </div>
+    
+            <div class="info-box formation-box">
+                <h3><i class="fas fa-graduation-cap"></i> Formação Acadêmica</h3>
+                <div class="formation-grid">
+                    <div><p>Engenharia de Software</p><span>UVA (2029)</span></div>
+                    <div><p>Técnico em Informática</p><span>Concluído</span></div>
+                    <div><p>Inglês/Espanhol</p><span>Técnico</span></div>
+                    <div><p>CompTIA A+</p><span>Concluído</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experiencia" class="reveal">
+        <div class="container">
+            <h2 class="section-title">Experiência Profissional</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2024 - Atual</div>
+                    <div class="timeline-content">
+                        <h3>Técnico de Suporte Júnior</h3>
+                        <h4>FFA Infraestrutura</h4>
+                        <ul>
+                          <li>Atendimento técnico N1 e N2 via telefone, chat e sistemas de chamados.</li>
+                          <li>Diagnóstico e resolução de incidentes de hardware, software e conectividade.</li>
+                          <li>Administração de contas e acessos em Active Directory e Office 365.</li>
+                          <li>Otimização de rede local e cabeamento estruturado.</li>
+                          <li>Consultas SQL via Workbench e manutenção básica em PHP/JS.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2023 - 2024</div>
+                    <div class="timeline-content">
+                        <h3>Técnico de Informática</h3>
+                        <h4>Exército Brasileiro</h4>
+                        <ul>
+                            <li>Manutenção de hardware e software em computadores e periféricos.</li>
+                            <li>Gestão de inventário e ativos de TI sob cautela.</li>
+                            <li>Configuração de pontos de rede e suporte em sistemas institucionais.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades" class="bg-alt reveal">
+        <div class="container">
+            <h2 class="section-title">Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-terminal"></i> OS & ITSM</h3>
+                    <ul><li>Windows 10/11</li><li>Jira / GLPI</li><li>AD & O365</li></ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-network-wired"></i> Redes</h3>
+                    <ul><li>TCP/IP / DNS</li><li>Monitoramento</li><li>Cabeamento</li></ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Dev & Data</h3>
+                    <ul><li>SQL / Python</li><li>JS / PHP</li><li>Git</li></ul>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <section id="contato" class="reveal">
+        <div class="container">
+            <h2 class="section-title">Conectar</h2>
+            <div class="contact-compact">
+                <div class="contact-row">
+                    <div class="contact-unit"><i class="fas fa-envelope"></i><span>eacd2004@gmail.com</span></div>
+                    <div class="contact-unit"><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/enzo-damasceno-30563a3b6" target="_blank">LinkedIn</a></div>
+                    <div class="contact-unit"><i class="fab fa-whatsapp"></i><span>(21) 99230-8961</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Enzo Damasceno | Built with Logic & Design</p>
+        </div>
+    </footer>
+
+    <script>
+        // --- 1. EFEITO MATRIX OTIMIZADO ---
+        const canvas = document.getElementById('matrix-canvas');
+        const ctx = canvas.getContext('2d');
+        let width, height, columns, rainDrops;
+
+        function initMatrix() {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight * 0.8;
+            columns = Math.floor(width / 16);
+            rainDrops = Array(columns).fill(1);
+        }
+
+        function drawMatrix() {
+            ctx.fillStyle = 'rgba(13, 17, 23, 0.05)';
+            ctx.fillRect(0, 0, width, height);
+            ctx.fillStyle = '#2f81f7'; // Azul Tech
+            ctx.font = '15px monospace';
+            rainDrops.forEach((y, i) => {
+                const text = Math.random() > 0.5 ? '0' : '1';
+                ctx.fillText(text, i * 16, y * 16);
+                if (y * 16 > height && Math.random() > 0.975) rainDrops[i] = 0;
+                rainDrops[i]++;
+            });
+        }
+        initMatrix();
+        window.addEventListener('resize', initMatrix);
+        setInterval(drawMatrix, 50);
+
+        // --- 2. BARRA DE PROGRESSO ---
+        window.onscroll = function() {
+            let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            let scrolled = (winScroll / height) * 100;
+            document.getElementById("progress-bar").style.width = scrolled + "%";
+
+            // Ativa o Scroll Reveal
+            document.querySelectorAll('.reveal').forEach(el => {
+                let rect = el.getBoundingClientRect();
+                if (rect.top < window.innerHeight - 100) el.classList.add('active');
+            });
+        };
+
+        // --- 3. TYPEWRITER MULTI-TEXTO ---
+        const textElement = document.getElementById('typewriter');
+        const phrases = ["Analista de TI", "Service Desk N1/N2", "Infraestrutura", "Engenheiro de Software"];
+        let phraseIdx = 0; let charIdx = 0; let isDeleting = false;
+
+        function type() {
+            const currentPhrase = phrases[phraseIdx];
+            if (isDeleting) {
+                textElement.textContent = currentPhrase.substring(0, charIdx - 1);
+                charIdx--;
+            } else {
+                textElement.textContent = currentPhrase.substring(0, charIdx + 1);
+                charIdx++;
+            }
+
+            if (!isDeleting && charIdx === currentPhrase.length) {
+                setTimeout(() => isDeleting = true, 2000);
+            } else if (isDeleting && charIdx === 0) {
+                isDeleting = false;
+                phraseIdx = (phraseIdx + 1) % phrases.length;
+            }
+            setTimeout(type, isDeleting ? 50 : 100);
+        }
+        type();
+    </script>
+</body>
+</html>
